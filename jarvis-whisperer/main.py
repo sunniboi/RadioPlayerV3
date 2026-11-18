@@ -26,7 +26,7 @@ log = logging.getLogger("JarvisWhisperer")
 SAMPLE_RATE = 16000          # Whisper erwartet 16 kHz
 CHANNELS = 1
 DTYPE = "float32"
-WHISPER_MODEL = "base"       # tiny/base/small/medium – base ist gut für Alltag
+WHISPER_MODEL = "tiny"       # tiny/base/small/medium – tiny = schnell, 75 MB
 WHISPER_DEVICE = "cpu"       # "cuda" wenn GPU vorhanden
 LANGUAGE = None              # None = automatisch (Deutsch + Englisch erkannt)
 
